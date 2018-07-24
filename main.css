@@ -1,0 +1,168 @@
+body {
+  padding: 15px;
+	background-color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+	width: 100%;
+	table-layout: auto;
+}
+.wrapper-inner {
+	width: 100%;
+	background-color: #eee;
+	max-width: 670px;
+	margin: 0 auto;
+}
+
+table {
+	width: 100%;
+	max-width: 670px;
+	margin: 0 auto;
+}
+td {
+    padding: 0;
+}
+
+.cell {
+  border: red solid 2px;
+  width: 45%;
+  display: inline-block;
+
+  /* max-width: 500px; */
+}
+
+.bar, .content {
+  /* width: 100%; */
+  padding: 1.5em;
+}
+
+.bar-top, .bar-bottom {
+  color: #fff;
+  font-weight: 600;
+}
+
+.bar span {
+  float: right;
+}
+
+.max-width {
+  max-width: 670px;
+}
+.bar {
+  margin: 0!important;
+  background-color: rgb(52, 73, 94);
+}
+
+.r-1 {
+  font-family: "Microsoft YaHei";
+  color: #fff;
+  text-align: center;
+}
+
+div.r-2 {
+  padding: 0em 1em;
+  font-size: 1.2em;
+}
+
+.r-2 div {
+  padding: 1em;
+}
+
+
+.blue {
+  background-color: rgb(79, 193, 233);
+}
+
+.blue-light {
+  background-color: rgb(215, 241, 250);
+}
+
+.orange {
+  background-color: rgb(255, 206, 84);
+}
+
+.orange-light {
+  background-color: rgb(255, 250, 237);
+}
+
+hr {
+  opacity: .2;
+}
+
+.r-3 {
+  padding: 2em;
+  background-color: rgb(230, 233, 237);
+}
+
+.btn-try {
+  border-radius: 0;
+  padding: .5em;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.btn-contact {
+  padding: 2em;
+  border-radius: 1em;
+  background-color: green;
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .cell-container {
+    display: inline-grid;
+  }
+
+  .cell {
+    border: green solid 2px;
+    width: 100%;
+    
+  }
+
+  .btn-contact {
+    padding: 2em;
+    width: 100%;
+    border-radius: 0;
+    background-color: red;}
+
+}
+
+@media only screen and (max-device-width: 480px) {
+
+  .cell-container {
+    display: inline-grid;
+  }
+
+  .cell {
+    border: green solid 2px;
+    width: 100%;
+    
+  }
+
+  .btn-contact {
+    width: 100%;
+    border-radius: 0;
+    background-color: red;}
+}
+
+
+
+
+
+
+/* Image sources
+![0399-facebook3](https://user-images.githubusercontent.com/23082500/43146587-8770dd5e-8f2f-11e8-9ea2-bf0589333749.png)
+![0404-twitter3](https://user-images.githubusercontent.com/23082500/43146588-87880e7a-8f2f-11e8-94d3-aaf7d127abf9.png)
+![0407-feed4](https://user-images.githubusercontent.com/23082500/43146589-879a6e58-8f2f-11e8-9c6e-c3d5b4c168f7.png)
+
+*/
